@@ -110,6 +110,6 @@ function onCopy(id) {
 function main() {
   if (window.location.hash) {
     document.querySelector("#encrypted-url").value =
-      `https://megaflashxyz.github.io/link-lock/${window.location.hash}`;
+      `https://lock.megaflash.xyz/link-lock/${window.location.hash}`;
   }
 }
